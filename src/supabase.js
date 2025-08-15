@@ -25,7 +25,8 @@ if (signupBtn) {
   signupBtn.onclick = async () => {
     const email = document.getElementById('reg-email').value;
     const password = document.getElementById('reg-password').value;
-    const { data, error } = await supabase.auth.signUp({ email, password });
+    // const { data, error } = await supabase.auth.signUp({ email, password });
+    const { error } = await supabase.auth.signUp({ email, password });
     if (error) {
       alert('Signup failed: ' + error.message);
       console.error(error);

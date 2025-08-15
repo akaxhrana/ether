@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="40" height="40">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a3bffa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Horizon line -->
+  <path d="M10 80 H90" stroke="url(#skyGradient)" stroke-width="4" fill="none" />
+  <!-- Crescent curve -->
+  <path d="M30 80 C40 60, 60 60, 70 80" fill="none" stroke="url(#skyGradient)" stroke-width="4" stroke-linecap="round" />
+  <!-- Optional star -->
+  <circle cx="50" cy="30" r="2" fill="white" opacity="0.8" />
+</svg>

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.583d9f1a.css",
+    "main.js": "/static/js/main.0d35bf09.js",
+    "static/js/453.182632d9.chunk.js": "/static/js/453.182632d9.chunk.js",
+    "static/media/nightsky-2.mp4": "/static/media/nightsky-2.b4caef856ee8680375cb.mp4",
+    "static/media/main-logo.svg": "/static/media/main-logo.316419521148679b30d628368ed71324.svg",
+    "index.html": "/index.html",
+    "main.583d9f1a.css.map": "/static/css/main.583d9f1a.css.map",
+    "main.0d35bf09.js.map": "/static/js/main.0d35bf09.js.map",
+    "453.182632d9.chunk.js.map": "/static/js/453.182632d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.583d9f1a.css",
+    "static/js/main.0d35bf09.js"
+  ]
+}

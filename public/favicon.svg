@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a3bffa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Simplified cloud shape -->
+  <path d="M12 48 C18 36, 32 36, 38 48 C44 42, 48 42, 48 48 C48 54, 44 54, 38 54 H26 C20 54, 12 54, 12 48" fill="url(#skyGradient)" stroke="none" />
+  <!-- Star -->
+  <circle cx="32" cy="20" r="2" fill="white" opacity="0.9" />
+</svg>
